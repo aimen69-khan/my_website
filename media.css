@@ -1,0 +1,136 @@
+@media (max-width: 720px){
+
+.navdiv{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-links{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-section{
+    position: static;
+    padding: 100px 20px 40px;
+}
+
+.colors{
+    height: auto;
+    padding-bottom: 60px;
+}
+
+.hero-section h1{
+    font-size: 30px;
+}
+
+.hero-section p{
+    font-size: 16px;
+}
+
+.hero-section button{
+    padding: 12px 25px;
+    font-size: 15px;
+}
+
+.About-us h1{
+    font-size: 35px;
+}
+
+.parent{
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.child-1,
+.child-2,
+.child-3{
+    width: 90%;
+}
+
+.signin{
+    width: 100%;
+}
+
+.signin-h2 h2{
+    font-size: 32px;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+}
+
+@media (max-width: 992px){
+
+.nav-links{
+    gap: 20px;
+    font-size: 15px;
+}
+
+.hero-section{
+    position: static;
+    padding-top: 120px;
+}
+
+.colors{
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.hero-section h1{
+    font-size: 36px;
+}
+
+.hero-section p{
+    font-size: 18px;
+}
+
+.parent{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.child-1,
+.child-2,
+.child-3{
+    width: 45%;
+}
+
+}
+
+@media (max-width: 480px){
+
+.logo{
+    font-size: 22px;
+}
+
+.hero-section h1{
+    font-size: 26px;
+}
+
+.hero-section p{
+    font-size: 15px;
+}
+
+.parent-h1{
+    font-size: 28px;
+}
+
+.child-h2{
+    font-size: 24px;
+}
+
+.child-p{
+    font-size: 16px;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+}
